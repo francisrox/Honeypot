@@ -1,0 +1,661 @@
+2026-01-31 09:31:24,992 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-01-31 09:31:24,998 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 09:31:24,998 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 09:31:24,998 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 09:31:25,004 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 09:31:45,397 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:31:45,397 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 09:31:45,397 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:31:45,397 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 09:31:45,397 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 09:32:47,523 - honeypot - ERROR - error:93 - Ollama API error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-01-31 09:32:47,524 - honeypot - WARNING - warning:90 - LLM failed, using fallback response
+2026-01-31 09:32:47,525 - honeypot - INFO - info:87 - Detection result: is_scam=False, confidence=0.15, type=prize_lottery
+2026-01-31 09:32:47,526 - honeypot - INFO - info:87 - Detection: is_scam=False, confidence=0.15, type=prize_lottery
+2026-01-31 09:32:47,526 - honeypot - INFO - info:87 - Message classified as legitimate. Honeypot NOT activated.
+2026-01-31 09:33:03,980 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:33:03,983 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 09:33:03,984 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:33:03,987 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 09:33:03,989 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 09:33:47,498 - honeypot - INFO - info:87 - Detection result: is_scam=False, confidence=0.20, type=unknown
+2026-01-31 09:33:47,498 - honeypot - INFO - info:87 - Detection: is_scam=False, confidence=0.20, type=unknown
+2026-01-31 09:33:47,498 - honeypot - INFO - info:87 - Message classified as legitimate. Honeypot NOT activated.
+2026-01-31 09:33:54,587 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:33:54,591 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 09:33:54,593 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:33:54,593 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 09:33:54,595 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 09:34:59,996 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-01-31 09:35:00,005 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 09:35:00,007 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 09:35:00,007 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 09:35:00,007 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 09:35:00,007 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:35:00,007 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 09:35:00,009 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:35:00,009 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 09:35:00,009 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 09:35:45,300 - honeypot - INFO - info:87 - Detection result: is_scam=True, confidence=0.35, type=prize_lottery
+2026-01-31 09:35:45,300 - honeypot - INFO - info:87 - Detection: is_scam=True, confidence=0.35, type=prize_lottery
+2026-01-31 09:35:45,300 - honeypot - INFO - info:87 - Step 2: Activating Honeypot
+2026-01-31 09:35:45,300 - honeypot - INFO - info:87 - Scam detected with 35.00% confidence
+2026-01-31 09:35:45,303 - honeypot - INFO - info:87 - Selected persona: Rajesh Kumar (elderly) for scam type prize_lottery
+2026-01-31 09:35:45,303 - honeypot - INFO - info:87 - Started conversation with persona: Rajesh Kumar
+2026-01-31 09:35:45,303 - honeypot - INFO - info:87 - Persona activated: Rajesh Kumar
+2026-01-31 09:35:45,303 - honeypot - INFO - info:87 - Step 3: Starting Conversation Loop
+2026-01-31 09:35:45,303 - honeypot - INFO - info:87 - Extracted 1 entities from scammer message
+2026-01-31 09:36:47,355 - honeypot - ERROR - error:93 - Ollama API error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-01-31 09:36:47,356 - honeypot - WARNING - warning:90 - LLM failed, using fallback response
+2026-01-31 09:36:47,357 - honeypot - WARNING - warning:90 - Persona consistency check failed: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-01-31 09:36:47,357 - honeypot - WARNING - warning:90 - Response failed consistency check: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-01-31 09:37:49,398 - honeypot - ERROR - error:93 - Ollama API error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-01-31 09:37:49,399 - honeypot - WARNING - warning:90 - LLM failed, using fallback response
+2026-01-31 09:37:54,403 - honeypot - INFO - info:87 - Step 4: Generating Intelligence Report
+2026-01-31 09:37:54,403 - honeypot - INFO - info:87 - Generating intelligence report
+2026-01-31 09:37:54,419 - honeypot - INFO - info:87 - Report exported to report_88b06db01a2b.json
+2026-01-31 09:37:54,425 - honeypot - INFO - info:87 - Report exported to report_88b06db01a2b.md
+2026-01-31 09:37:54,428 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:37:54,428 - honeypot - INFO - info:87 - Honeypot processing complete
+2026-01-31 09:37:54,430 - honeypot - INFO - info:87 - Report ID: 88b06db01a2b
+2026-01-31 09:37:54,432 - honeypot - INFO - info:87 - Entities extracted: 1
+2026-01-31 09:37:54,433 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:41:18,166 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-01-31 09:41:18,166 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 09:41:18,166 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 09:41:18,183 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 09:41:18,183 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 09:41:18,185 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:41:18,185 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 09:41:18,188 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:41:18,188 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 09:41:18,190 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 09:42:20,257 - honeypot - ERROR - error:93 - Ollama API error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-01-31 09:42:20,259 - honeypot - WARNING - warning:90 - LLM failed, using fallback response
+2026-01-31 09:42:20,259 - honeypot - INFO - info:87 - Detection result: is_scam=False, confidence=0.18, type=unknown
+2026-01-31 09:42:20,260 - honeypot - INFO - info:87 - Detection: is_scam=False, confidence=0.18, type=unknown
+2026-01-31 09:42:20,260 - honeypot - INFO - info:87 - Message classified as legitimate. Honeypot NOT activated.
+2026-01-31 09:44:35,780 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-01-31 09:44:35,791 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 09:44:35,791 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 09:44:35,791 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 09:44:35,792 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 09:44:35,792 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:44:35,792 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 09:44:35,792 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:44:35,792 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 09:44:35,792 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 09:45:26,293 - honeypot - INFO - info:87 - Detection result: is_scam=False, confidence=0.29, type=unknown
+2026-01-31 09:45:26,293 - honeypot - INFO - info:87 - Detection: is_scam=False, confidence=0.29, type=unknown
+2026-01-31 09:45:26,293 - honeypot - INFO - info:87 - Message classified as legitimate. Honeypot NOT activated.
+2026-01-31 09:45:36,504 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-01-31 09:45:36,504 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 09:45:36,504 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 09:45:36,504 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 09:45:36,504 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 09:45:36,504 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:45:36,517 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 09:45:36,517 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:45:36,517 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 09:45:36,517 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 09:46:26,733 - honeypot - INFO - info:87 - Detection result: is_scam=True, confidence=0.53, type=banking_fraud
+2026-01-31 09:46:26,734 - honeypot - INFO - info:87 - Detection: is_scam=True, confidence=0.53, type=banking_fraud
+2026-01-31 09:46:26,734 - honeypot - INFO - info:87 - Step 2: Activating Honeypot
+2026-01-31 09:46:26,734 - honeypot - INFO - info:87 - Scam detected with 53.00% confidence
+2026-01-31 09:46:26,734 - honeypot - INFO - info:87 - Selected persona: Sunita Reddy (tech_novice) for scam type banking_fraud
+2026-01-31 09:46:26,734 - honeypot - INFO - info:87 - Started conversation with persona: Sunita Reddy
+2026-01-31 09:46:26,734 - honeypot - INFO - info:87 - Persona activated: Sunita Reddy
+2026-01-31 09:46:26,734 - honeypot - INFO - info:87 - Step 3: Starting Conversation Loop
+2026-01-31 09:46:26,737 - honeypot - INFO - info:87 - Extracted 3 entities from scammer message
+2026-01-31 09:46:26,739 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (3) extracted
+2026-01-31 09:46:26,739 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 09:46:26,740 - honeypot - INFO - info:87 - Step 4: Generating Intelligence Report
+2026-01-31 09:46:26,740 - honeypot - INFO - info:87 - Generating intelligence report
+2026-01-31 09:46:26,745 - honeypot - INFO - info:87 - Report exported to report_6062d2bfd4d0.json
+2026-01-31 09:46:26,746 - honeypot - INFO - info:87 - Report exported to report_6062d2bfd4d0.md
+2026-01-31 09:46:26,746 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 09:46:26,746 - honeypot - INFO - info:87 - Honeypot processing complete
+2026-01-31 09:46:26,747 - honeypot - INFO - info:87 - Report ID: 6062d2bfd4d0
+2026-01-31 09:46:26,747 - honeypot - INFO - info:87 - Entities extracted: 3
+2026-01-31 09:46:26,747 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 14:38:16,459 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-01-31 14:38:16,469 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 14:38:16,469 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 14:38:16,470 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 14:38:16,470 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 14:38:16,471 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 14:38:16,471 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 14:38:16,472 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 14:38:16,472 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 14:38:16,472 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 14:39:22,394 - honeypot - INFO - info:87 - Detection result: is_scam=True, confidence=0.51, type=prize_lottery
+2026-01-31 14:39:22,394 - honeypot - INFO - info:87 - Detection: is_scam=True, confidence=0.51, type=prize_lottery
+2026-01-31 14:39:22,394 - honeypot - INFO - info:87 - Step 2: Activating Honeypot
+2026-01-31 14:39:22,394 - honeypot - INFO - info:87 - Scam detected with 51.00% confidence
+2026-01-31 14:39:22,394 - honeypot - INFO - info:87 - Selected persona: Rajesh Kumar (elderly) for scam type prize_lottery
+2026-01-31 14:39:22,394 - honeypot - INFO - info:87 - Started conversation with persona: Rajesh Kumar
+2026-01-31 14:39:22,401 - honeypot - INFO - info:87 - Persona activated: Rajesh Kumar
+2026-01-31 14:39:22,403 - honeypot - INFO - info:87 - Step 3: Starting Conversation Loop
+2026-01-31 14:39:22,422 - honeypot - INFO - info:87 - Extracted 1 entities from scammer message
+2026-01-31 14:41:24,507 - honeypot - ERROR - error:93 - Ollama API error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-01-31 14:41:24,508 - honeypot - WARNING - warning:90 - LLM failed, using fallback response
+2026-01-31 14:41:24,510 - honeypot - WARNING - warning:90 - Persona consistency check failed: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-01-31 14:41:24,510 - honeypot - WARNING - warning:90 - Response failed consistency check: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-01-31 14:42:28,783 - honeypot - INFO - info:87 - Step 4: Generating Intelligence Report
+2026-01-31 14:42:28,789 - honeypot - INFO - info:87 - Generating intelligence report
+2026-01-31 14:42:28,793 - honeypot - INFO - info:87 - Report exported to report_0e8a54a52f45.json
+2026-01-31 14:42:28,797 - honeypot - INFO - info:87 - Report exported to report_0e8a54a52f45.md
+2026-01-31 14:42:28,802 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 14:42:28,803 - honeypot - INFO - info:87 - Honeypot processing complete
+2026-01-31 14:42:28,806 - honeypot - INFO - info:87 - Report ID: 0e8a54a52f45
+2026-01-31 14:42:28,807 - honeypot - INFO - info:87 - Entities extracted: 1
+2026-01-31 14:42:28,809 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 14:44:57,221 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-01-31 14:44:57,232 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 14:44:57,232 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 14:44:57,232 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 14:44:57,232 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 14:44:57,232 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 14:44:57,232 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 14:44:57,232 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 14:44:57,232 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 14:44:57,232 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 14:45:45,543 - honeypot - INFO - info:87 - Detection result: is_scam=True, confidence=0.47, type=prize_lottery
+2026-01-31 14:45:45,544 - honeypot - INFO - info:87 - Detection: is_scam=True, confidence=0.47, type=prize_lottery
+2026-01-31 14:45:45,544 - honeypot - INFO - info:87 - Step 2: Activating Honeypot
+2026-01-31 14:45:45,544 - honeypot - INFO - info:87 - Scam detected with 47.00% confidence
+2026-01-31 14:45:45,544 - honeypot - INFO - info:87 - Selected persona: Rajesh Kumar (elderly) for scam type prize_lottery
+2026-01-31 14:45:45,544 - honeypot - INFO - info:87 - Started conversation with persona: Rajesh Kumar
+2026-01-31 14:45:45,544 - honeypot - INFO - info:87 - Persona activated: Rajesh Kumar
+2026-01-31 14:45:45,544 - honeypot - INFO - info:87 - Step 3: Starting Conversation Loop
+2026-01-31 14:45:45,544 - honeypot - INFO - info:87 - Extracted 1 entities from scammer message
+2026-01-31 14:47:47,639 - honeypot - ERROR - error:93 - Ollama API error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-01-31 14:47:47,642 - honeypot - WARNING - warning:90 - LLM failed, using fallback response
+2026-01-31 14:47:47,643 - honeypot - WARNING - warning:90 - Persona consistency check failed: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-01-31 14:47:47,645 - honeypot - WARNING - warning:90 - Response failed consistency check: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-01-31 14:48:43,352 - honeypot - INFO - info:87 - Step 4: Generating Intelligence Report
+2026-01-31 14:48:43,352 - honeypot - INFO - info:87 - Generating intelligence report
+2026-01-31 14:48:43,358 - honeypot - INFO - info:87 - Report exported to report_2dee714d6820.json
+2026-01-31 14:48:43,364 - honeypot - INFO - info:87 - Report exported to report_2dee714d6820.md
+2026-01-31 14:48:43,367 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 14:48:43,369 - honeypot - INFO - info:87 - Honeypot processing complete
+2026-01-31 14:48:43,369 - honeypot - INFO - info:87 - Report ID: 2dee714d6820
+2026-01-31 14:48:43,372 - honeypot - INFO - info:87 - Entities extracted: 1
+2026-01-31 14:48:43,374 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 15:35:44,725 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-01-31 15:35:44,744 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 15:35:44,744 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 15:35:44,744 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 15:35:44,744 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 15:35:44,744 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 15:35:44,744 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 15:35:44,744 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 15:35:44,744 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 15:35:44,744 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 15:37:04,476 - honeypot - INFO - info:87 - Detection result: is_scam=True, confidence=0.41, type=prize_lottery
+2026-01-31 15:37:04,476 - honeypot - INFO - info:87 - Detection: is_scam=True, confidence=0.41, type=prize_lottery
+2026-01-31 15:37:04,476 - honeypot - INFO - info:87 - Step 2: Activating Honeypot
+2026-01-31 15:37:04,476 - honeypot - INFO - info:87 - Scam detected with 41.00% confidence
+2026-01-31 15:37:04,483 - honeypot - INFO - info:87 - Selected persona: Rajesh Kumar (elderly) for scam type prize_lottery
+2026-01-31 15:37:04,485 - honeypot - INFO - info:87 - Started conversation with persona: Rajesh Kumar
+2026-01-31 15:37:04,485 - honeypot - INFO - info:87 - Persona activated: Rajesh Kumar
+2026-01-31 15:37:04,489 - honeypot - INFO - info:87 - Step 3: Starting Conversation Loop
+2026-01-31 15:39:31,062 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-01-31 15:39:31,071 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 15:39:31,071 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 15:39:31,072 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 15:39:31,072 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 15:39:31,072 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 15:39:31,073 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 15:39:31,073 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 15:39:31,073 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 15:39:31,074 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-01-31 15:39:53,236 - honeypot - INFO - info:87 - Detection result: is_scam=True, confidence=0.53, type=prize_lottery
+2026-01-31 15:39:53,237 - honeypot - INFO - info:87 - Detection: is_scam=True, confidence=0.53, type=prize_lottery
+2026-01-31 15:39:53,237 - honeypot - INFO - info:87 - Step 2: Activating Honeypot
+2026-01-31 15:39:53,237 - honeypot - INFO - info:87 - Scam detected with 53.00% confidence
+2026-01-31 15:39:53,237 - honeypot - INFO - info:87 - Selected persona: Rajesh Kumar (elderly) for scam type prize_lottery
+2026-01-31 15:39:53,237 - honeypot - INFO - info:87 - Started conversation with persona: Rajesh Kumar
+2026-01-31 15:39:53,237 - honeypot - INFO - info:87 - Persona activated: Rajesh Kumar
+2026-01-31 15:39:53,239 - honeypot - INFO - info:87 - Step 3: Starting Conversation Loop
+2026-01-31 15:39:53,241 - honeypot - INFO - info:87 - Extracted 2 entities from scammer message
+2026-01-31 15:41:55,304 - honeypot - ERROR - error:93 - Ollama API error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-01-31 15:41:55,305 - honeypot - WARNING - warning:90 - LLM failed, using fallback response
+2026-01-31 15:41:55,310 - honeypot - WARNING - warning:90 - Persona consistency check failed: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-01-31 15:41:55,312 - honeypot - WARNING - warning:90 - Response failed consistency check: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-01-31 15:43:15,200 - honeypot - WARNING - warning:90 - Response validation failed: Response too long for victim persona
+2026-01-31 15:43:20,202 - honeypot - INFO - info:87 - Victim: That sounds interesting. How does this work?
+2026-01-31 15:44:23,021 - honeypot - WARNING - warning:90 - Response validation failed: Response too long for victim persona
+2026-01-31 15:44:23,022 - honeypot - WARNING - warning:90 - Persona consistency check failed: Occupation inconsistency: persona is Retired bank employee but stated bit confused
+2026-01-31 15:44:23,023 - honeypot - WARNING - warning:90 - Response failed consistency check: Occupation inconsistency: persona is Retired bank employee but stated bit confused
+2026-01-31 15:45:29,194 - honeypot - WARNING - warning:90 - Response validation failed: Response too long for victim persona
+2026-01-31 15:45:34,195 - honeypot - INFO - info:87 - Victim: Okay, what do I need to do?
+2026-01-31 15:45:34,198 - honeypot - INFO - info:87 - Scammer: Send the payment to this account: 987654*****. Bank: HDMI Bank. Name: Rajesh Kumar.
+2026-01-31 15:45:34,202 - honeypot - INFO - info:87 - Extracted 3 entities from scammer message
+2026-01-31 15:45:34,205 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (5) extracted
+2026-01-31 15:45:34,206 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,206 - honeypot - INFO - info:87 - Victim: I'm interested, but I need to go now. Can we continue this tomorrow?
+2026-01-31 15:45:34,213 - honeypot - INFO - info:87 - Scammer: After payment, we will send you the training materials and your first assignment.
+2026-01-31 15:45:34,216 - honeypot - INFO - info:87 - Extracted 1 entities from scammer message
+2026-01-31 15:45:34,219 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,221 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,223 - honeypot - INFO - info:87 - Victim: I'm interested, but I need to go now. Can we continue this tomorrow?
+2026-01-31 15:45:34,226 - honeypot - INFO - info:87 - Scammer: Let me know if you want to proceed.
+2026-01-31 15:45:34,226 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,226 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,233 - honeypot - INFO - info:87 - Victim: Thank you for the information. I need to think about this and discuss with my family.
+2026-01-31 15:45:34,235 - honeypot - INFO - info:87 - Scammer: Let me know if you want to proceed.
+2026-01-31 15:45:34,235 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,240 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,241 - honeypot - INFO - info:87 - Victim: Let me talk to my son/daughter about this first. I'll message you back.
+2026-01-31 15:45:34,243 - honeypot - INFO - info:87 - Scammer: Let me know if you want to proceed.
+2026-01-31 15:45:34,245 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,245 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,245 - honeypot - INFO - info:87 - Victim: Let me talk to my son/daughter about this first. I'll message you back.
+2026-01-31 15:45:34,248 - honeypot - INFO - info:87 - Scammer: So are you interested or not?
+2026-01-31 15:45:34,249 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,249 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,250 - honeypot - INFO - info:87 - Victim: Let me talk to my son/daughter about this first. I'll message you back.
+2026-01-31 15:45:34,252 - honeypot - INFO - info:87 - Scammer: So are you interested or not?
+2026-01-31 15:45:34,252 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,252 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,252 - honeypot - INFO - info:87 - Victim: This sounds good, but I need some time to arrange the money. I'll contact you later.
+2026-01-31 15:45:34,254 - honeypot - INFO - info:87 - Scammer: So are you interested or not?
+2026-01-31 15:45:34,254 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,255 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,255 - honeypot - INFO - info:87 - Victim: This sounds good, but I need some time to arrange the money. I'll contact you later.
+2026-01-31 15:45:34,256 - honeypot - INFO - info:87 - Scammer: Please send the payment soon.
+2026-01-31 15:45:34,256 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,256 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,256 - honeypot - INFO - info:87 - Victim: Thank you for the information. I need to think about this and discuss with my family.
+2026-01-31 15:45:34,256 - honeypot - INFO - info:87 - Scammer: Let me know if you want to proceed.
+2026-01-31 15:45:34,258 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,260 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,261 - honeypot - INFO - info:87 - Victim: I'm interested, but I need to go now. Can we continue this tomorrow?
+2026-01-31 15:45:34,262 - honeypot - INFO - info:87 - Scammer: So are you interested or not?
+2026-01-31 15:45:34,262 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,263 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,263 - honeypot - INFO - info:87 - Victim: This sounds good, but I need some time to arrange the money. I'll contact you later.
+2026-01-31 15:45:34,264 - honeypot - INFO - info:87 - Scammer: Please send the payment soon.
+2026-01-31 15:45:34,264 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,264 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,264 - honeypot - INFO - info:87 - Victim: Thank you for the information. I need to think about this and discuss with my family.
+2026-01-31 15:45:34,264 - honeypot - INFO - info:87 - Scammer: Let me know if you want to proceed.
+2026-01-31 15:45:34,264 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (6) extracted
+2026-01-31 15:45:34,264 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-01-31 15:45:34,264 - honeypot - INFO - info:87 - Victim: I'm interested, but I need to go now. Can we continue this tomorrow?
+2026-01-31 15:45:34,267 - honeypot - INFO - info:87 - Step 4: Generating Intelligence Report
+2026-01-31 15:45:34,267 - honeypot - INFO - info:87 - Generating intelligence report
+2026-01-31 15:45:34,268 - honeypot - INFO - info:87 - Report exported to report_0cbd1a772942.json
+2026-01-31 15:45:34,269 - honeypot - INFO - info:87 - Report exported to report_0cbd1a772942.md
+2026-01-31 15:45:34,269 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 15:45:34,269 - honeypot - INFO - info:87 - Honeypot processing complete
+2026-01-31 15:45:34,271 - honeypot - INFO - info:87 - Report ID: 0cbd1a772942
+2026-01-31 15:45:34,271 - honeypot - INFO - info:87 - Entities extracted: 6
+2026-01-31 15:45:34,271 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 15:45:34,273 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-01-31 15:45:34,273 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-01-31 15:45:34,273 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-01-31 15:45:34,273 - honeypot - INFO - info:87 - Max Messages: 15
+2026-01-31 15:45:34,273 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 15:45:34,274 - honeypot - INFO - info:87 - Processing new message
+2026-01-31 15:45:34,274 - honeypot - INFO - info:87 - ============================================================
+2026-01-31 15:45:34,274 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-01-31 15:45:34,274 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-02-05 08:00:49,005 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 08:00:49,015 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 08:00:49,016 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 08:00:49,016 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 08:00:49,016 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 08:00:49,016 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 08:00:49,119 - honeypot - INFO - info:87 - Starting API server on 0.0.0.0:8000
+2026-02-05 08:00:49,119 - honeypot - INFO - info:87 - API Key configured: True
+2026-02-05 08:00:49,921 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 08:00:49,933 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 08:00:49,933 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 08:00:49,934 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 08:00:49,934 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 08:00:49,934 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 08:00:53,405 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 08:00:53,406 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 08:00:53,406 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 08:00:53,407 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 08:00:53,407 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 08:02:06,995 - honeypot - INFO - info:87 - API: Processing message from unknown
+2026-02-05 08:02:06,996 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 08:02:06,997 - honeypot - INFO - info:87 - Processing new message
+2026-02-05 08:02:06,997 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 08:02:06,997 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-02-05 08:02:06,998 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-02-05 08:03:45,127 - honeypot - INFO - info:87 - Detection result: is_scam=True, confidence=0.35, type=prize_lottery
+2026-02-05 08:03:45,128 - honeypot - INFO - info:87 - Detection: is_scam=True, confidence=0.35, type=prize_lottery
+2026-02-05 08:03:45,128 - honeypot - INFO - info:87 - Step 2: Activating Honeypot
+2026-02-05 08:03:45,129 - honeypot - INFO - info:87 - Scam detected with 35.00% confidence
+2026-02-05 08:03:45,130 - honeypot - INFO - info:87 - Selected persona: Rajesh Kumar (elderly) for scam type prize_lottery
+2026-02-05 08:03:45,130 - honeypot - INFO - info:87 - Started conversation with persona: Rajesh Kumar
+2026-02-05 08:03:45,130 - honeypot - INFO - info:87 - Persona activated: Rajesh Kumar
+2026-02-05 08:03:45,130 - honeypot - INFO - info:87 - Step 3: Starting Conversation Loop
+2026-02-05 08:03:45,134 - honeypot - INFO - info:87 - Extracted 1 entities from scammer message
+2026-02-05 08:05:47,197 - honeypot - ERROR - error:93 - Ollama API error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-02-05 08:05:47,198 - honeypot - WARNING - warning:90 - LLM failed, using fallback response
+2026-02-05 08:05:47,200 - honeypot - WARNING - warning:90 - Persona consistency check failed: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-02-05 08:05:47,201 - honeypot - WARNING - warning:90 - Response failed consistency check: Occupation inconsistency: persona is Retired bank employee but stated not sure i understand
+2026-02-05 08:07:39,702 - honeypot - INFO - info:87 - Step 4: Generating Intelligence Report
+2026-02-05 08:07:39,704 - honeypot - INFO - info:87 - Generating intelligence report
+2026-02-05 08:07:39,717 - honeypot - INFO - info:87 - Report exported to report_75dc40cc5eb0.json
+2026-02-05 08:07:39,721 - honeypot - INFO - info:87 - Report exported to report_75dc40cc5eb0.md
+2026-02-05 08:07:39,723 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 08:07:39,726 - honeypot - INFO - info:87 - Honeypot processing complete
+2026-02-05 08:07:39,727 - honeypot - INFO - info:87 - Report ID: 75dc40cc5eb0
+2026-02-05 08:07:39,728 - honeypot - INFO - info:87 - Entities extracted: 1
+2026-02-05 08:07:39,729 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 08:07:39,730 - honeypot - INFO - info:87 - API: Response sent - activated=True
+2026-02-05 08:10:34,009 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 08:10:34,020 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 08:10:34,021 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 08:10:34,021 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 08:10:34,021 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 08:10:34,022 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 08:10:34,117 - honeypot - INFO - info:87 - Starting API server on 0.0.0.0:8000
+2026-02-05 08:10:34,118 - honeypot - INFO - info:87 - API Key configured: True
+2026-02-05 08:10:34,852 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 08:10:34,861 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 08:10:34,862 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 08:10:34,862 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 08:10:34,863 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 08:10:34,863 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 08:10:35,023 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 08:10:35,024 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 08:10:35,024 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 08:10:35,024 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 08:10:35,024 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:37:16,737 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:37:16,751 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:37:16,751 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:37:16,751 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:37:16,753 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:37:16,754 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:37:16,846 - honeypot - INFO - info:87 - Starting API server on 0.0.0.0:8000
+2026-02-05 11:37:16,847 - honeypot - INFO - info:87 - API Key configured: True
+2026-02-05 11:37:17,625 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:37:17,635 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:37:17,636 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:37:17,636 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:37:17,637 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:37:17,637 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:37:17,792 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:37:17,793 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:37:17,793 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:37:17,793 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:37:17,793 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:41:15,062 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:41:15,074 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:41:15,074 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:41:15,074 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:41:15,074 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:41:15,074 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:41:15,177 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:41:15,179 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:41:15,179 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:41:15,181 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:41:15,181 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:41:33,134 - honeypot - INFO - info:87 - API: Processing message from unknown: Test message for honeypot validation...
+2026-02-05 11:41:33,134 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:41:33,136 - honeypot - INFO - info:87 - Processing new message
+2026-02-05 11:41:33,138 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:41:33,138 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-02-05 11:41:33,138 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-02-05 11:42:38,694 - honeypot - INFO - info:87 - Detection result: is_scam=False, confidence=0.00, type=unknown
+2026-02-05 11:42:38,695 - honeypot - INFO - info:87 - Detection: is_scam=False, confidence=0.00, type=unknown
+2026-02-05 11:42:38,695 - honeypot - INFO - info:87 - Message classified as legitimate. Honeypot NOT activated.
+2026-02-05 11:42:38,695 - honeypot - INFO - info:87 - API: Response sent - activated=False
+2026-02-05 11:44:29,177 - honeypot - INFO - info:87 - API: Processing message from unknown: Test message for honeypot validation...
+2026-02-05 11:44:29,180 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:44:29,188 - honeypot - INFO - info:87 - Processing new message
+2026-02-05 11:44:29,190 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:44:29,192 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-02-05 11:44:29,193 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-02-05 11:45:08,052 - honeypot - INFO - info:87 - Detection result: is_scam=False, confidence=0.20, type=unknown
+2026-02-05 11:45:08,052 - honeypot - INFO - info:87 - Detection: is_scam=False, confidence=0.20, type=unknown
+2026-02-05 11:45:08,052 - honeypot - INFO - info:87 - Message classified as legitimate. Honeypot NOT activated.
+2026-02-05 11:45:08,052 - honeypot - INFO - info:87 - API: Response sent - activated=False
+2026-02-05 11:45:37,862 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:45:37,877 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:45:37,877 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:45:37,881 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:45:37,881 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:45:37,883 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:45:38,128 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:45:38,128 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:45:38,128 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:45:38,128 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:45:38,132 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:45:49,277 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:45:49,284 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:45:49,286 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:45:49,286 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:45:49,286 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:45:49,287 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:45:49,384 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:45:49,385 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:45:49,385 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:45:49,385 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:45:49,385 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:45:56,952 - honeypot - INFO - info:87 - API: Processing message from unknown: Test message for honeypot validation...
+2026-02-05 11:45:56,952 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:45:56,952 - honeypot - INFO - info:87 - Processing new message
+2026-02-05 11:45:56,952 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:45:56,952 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-02-05 11:45:56,952 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-02-05 11:46:38,907 - honeypot - INFO - info:87 - Detection result: is_scam=False, confidence=0.20, type=unknown
+2026-02-05 11:46:38,908 - honeypot - INFO - info:87 - Detection: is_scam=False, confidence=0.20, type=unknown
+2026-02-05 11:46:38,908 - honeypot - INFO - info:87 - Message classified as legitimate. Honeypot NOT activated.
+2026-02-05 11:46:38,910 - honeypot - INFO - info:87 - API: Response sent - activated=False
+2026-02-05 11:48:25,182 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:48:25,195 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:48:25,195 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:48:25,195 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:48:25,195 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:48:25,195 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:48:25,262 - honeypot - INFO - info:87 - Starting API server on 0.0.0.0:8000
+2026-02-05 11:48:25,262 - honeypot - INFO - info:87 - API Key configured: True
+2026-02-05 11:48:26,039 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:48:26,049 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:48:26,051 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:48:26,051 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:48:26,051 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:48:26,051 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:48:26,185 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:48:26,185 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:48:26,185 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:48:26,185 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:48:26,187 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:51:37,475 - honeypot - INFO - info:87 - API: Processing message from unknown: Test...
+2026-02-05 11:51:37,475 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:51:37,475 - honeypot - INFO - info:87 - Processing new message
+2026-02-05 11:51:37,475 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:51:37,475 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-02-05 11:51:37,478 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-02-05 11:52:43,476 - honeypot - INFO - info:87 - Detection result: is_scam=False, confidence=0.20, type=unknown
+2026-02-05 11:52:43,476 - honeypot - INFO - info:87 - Detection: is_scam=False, confidence=0.20, type=unknown
+2026-02-05 11:52:43,476 - honeypot - INFO - info:87 - Message classified as legitimate. Honeypot NOT activated.
+2026-02-05 11:52:43,476 - honeypot - INFO - info:87 - API: Response sent - activated=False
+2026-02-05 11:53:00,324 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:53:00,337 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:53:00,341 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:53:00,341 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:53:00,341 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:53:00,341 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:53:00,495 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:53:00,495 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:53:00,497 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:53:00,497 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:53:00,497 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:53:16,286 - honeypot - INFO - info:87 - API: Fast validation mode - returning immediate response
+2026-02-05 11:55:16,056 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:55:16,066 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:55:16,066 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:55:16,066 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:55:16,066 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:55:16,066 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:55:16,132 - honeypot - INFO - info:87 - Starting API server on 0.0.0.0:8000
+2026-02-05 11:55:16,132 - honeypot - INFO - info:87 - API Key configured: True
+2026-02-05 11:55:16,824 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:55:16,833 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:55:16,833 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:55:16,837 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:55:16,837 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:55:16,838 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:55:16,950 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:55:16,950 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:55:16,950 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:55:16,950 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:55:16,950 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:55:57,003 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:55:57,005 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:55:57,012 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:55:57,012 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:55:57,013 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:55:57,013 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:55:57,071 - honeypot - INFO - info:87 - Starting API server on 0.0.0.0:8000
+2026-02-05 11:55:57,071 - honeypot - INFO - info:87 - API Key configured: True
+2026-02-05 11:55:57,751 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 11:55:57,763 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:55:57,763 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:55:57,766 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:55:57,766 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:55:57,766 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:55:57,871 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 11:55:57,873 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 11:55:57,874 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 11:55:57,874 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 11:55:57,874 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 11:56:45,225 - honeypot - INFO - info:87 - API: Processing message from unknown: {"sender": "scammer", "text": "URGENT: Your SBI ac...
+2026-02-05 11:56:45,225 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:56:45,233 - honeypot - INFO - info:87 - Processing new message
+2026-02-05 11:56:45,235 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:56:45,238 - honeypot - INFO - info:87 - Step 1: Scam Detection
+2026-02-05 11:56:45,241 - honeypot - INFO - info:87 - Analyzing message for scam indicators (sender: None)
+2026-02-05 11:57:41,258 - honeypot - INFO - info:87 - Detection result: is_scam=True, confidence=0.59, type=banking_fraud
+2026-02-05 11:57:41,259 - honeypot - INFO - info:87 - Detection: is_scam=True, confidence=0.59, type=banking_fraud
+2026-02-05 11:57:41,259 - honeypot - INFO - info:87 - Step 2: Activating Honeypot
+2026-02-05 11:57:41,259 - honeypot - INFO - info:87 - Scam detected with 59.00% confidence
+2026-02-05 11:57:41,259 - honeypot - INFO - info:87 - Selected persona: Sunita Reddy (tech_novice) for scam type banking_fraud
+2026-02-05 11:57:41,259 - honeypot - INFO - info:87 - Started conversation with persona: Sunita Reddy
+2026-02-05 11:57:41,259 - honeypot - INFO - info:87 - Persona activated: Sunita Reddy
+2026-02-05 11:57:41,259 - honeypot - INFO - info:87 - Step 3: Starting Conversation Loop
+2026-02-05 11:57:41,263 - honeypot - INFO - info:87 - Extracted 4 entities from scammer message
+2026-02-05 11:57:41,263 - honeypot - INFO - info:87 - Stop condition: Sufficient entities (3) extracted
+2026-02-05 11:57:41,263 - honeypot - INFO - info:87 - Stopping conversation: sufficient_entities_extracted
+2026-02-05 11:57:41,263 - honeypot - INFO - info:87 - Victim: I appreciate your help. Let me check with my bank first and get back to you.
+2026-02-05 11:57:41,263 - honeypot - INFO - info:87 - Step 4: Generating Intelligence Report
+2026-02-05 11:57:41,263 - honeypot - INFO - info:87 - Generating intelligence report
+2026-02-05 11:57:41,263 - honeypot - INFO - info:87 - Report exported to report_8cc8df3bd81f.json
+2026-02-05 11:57:41,270 - honeypot - INFO - info:87 - Report exported to report_8cc8df3bd81f.md
+2026-02-05 11:57:41,270 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:57:41,270 - honeypot - INFO - info:87 - Honeypot processing complete
+2026-02-05 11:57:41,270 - honeypot - INFO - info:87 - Report ID: 8cc8df3bd81f
+2026-02-05 11:57:41,270 - honeypot - INFO - info:87 - Entities extracted: 3
+2026-02-05 11:57:41,270 - honeypot - INFO - info:87 - ============================================================
+2026-02-05 11:57:41,271 - honeypot - INFO - info:87 - API: Response sent - activated=True
+2026-02-05 12:00:27,221 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 12:00:27,232 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 12:00:27,232 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 12:00:27,234 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 12:00:27,235 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 12:00:27,235 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 12:00:27,236 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 12:00:27,245 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 12:00:27,248 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 12:00:27,248 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 12:00:27,248 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 12:00:27,248 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 12:00:27,350 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 12:00:27,350 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 12:00:27,350 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 12:00:27,350 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 12:00:27,350 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 12:00:27,350 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 12:00:27,356 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 12:00:27,356 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 12:00:27,356 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 12:00:27,357 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 12:00:31,797 - honeypot - INFO - info:87 - API: Fast validation mode - message: empty...
+2026-02-05 12:01:16,294 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 12:01:16,305 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 12:01:16,305 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 12:01:16,305 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 12:01:16,306 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 12:01:16,306 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 12:01:16,362 - honeypot - INFO - info:87 - Starting API server on 0.0.0.0:8000
+2026-02-05 12:01:16,362 - honeypot - INFO - info:87 - API Key configured: True
+2026-02-05 12:01:17,062 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 12:01:17,078 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 12:01:17,080 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 12:01:17,080 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 12:01:17,081 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 12:01:17,081 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 12:01:17,182 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 12:01:17,183 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 12:01:17,184 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 12:01:17,184 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 12:01:17,184 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 12:01:42,615 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "URGENT: Your SBI account has been compromised. Your account will be b...
+2026-02-05 12:01:46,052 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Sir/Madam, this is SBI Security Team. Your account is at high risk!...
+2026-02-05 12:01:49,650 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Sir/Madam, this is urgent! Your account security is at stake. For i...
+2026-02-05 12:01:52,848 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Sir/Madam, this is SBI Fraud Department. Your account is being acce...
+2026-02-05 12:01:57,027 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Sir/Madam, we've detected unauthorized transactions on your account...
+2026-02-05 12:01:59,544 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Sir/Madam, your account is now under high risk! To stop the fraudul...
+2026-02-05 12:02:05,216 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Urgent alert! Your account security is compromised! To verify your ...
+2026-02-05 12:02:10,848 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Critical security breach detected! To secure your funds, share your...
+2026-02-05 12:02:16,286 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Final warning! Your account will be frozen in 2 minutes! For immedi...
+2026-02-05 12:02:22,845 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Emergency protocol activated! Your account is now under threat. To ...
+2026-02-05 12:03:00,419 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "URGENT: Your SBI account has been compromised. Your account will be b...
+2026-02-05 12:03:04,762 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Sir/Madam, this is SBI Security Team. Your account is still at risk...
+2026-02-05 12:03:13,099 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"ALERT: Your account verification is still pending! To prevent perma...
+2026-02-05 12:03:17,670 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"Final Warning: Your account suspension is now in progress! To cance...
+2026-02-05 12:03:30,613 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"URGENT: Your account freeze is 90% complete! To stop this, please s...
+2026-02-05 12:03:36,060 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"CRITICAL ALERT: Your account freeze is now irreversible! To unlock,...
+2026-02-05 12:03:40,819 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"RED ALERT: Your account is now LOCKED! To reactivate, send \u20b91 ...
+2026-02-05 12:03:47,827 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"FINAL WARNING: Your account will be PERMANENTLY SUSPENDED in 2 minu...
+2026-02-05 12:03:51,974 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"URGENT: Your account is now under cyber attack! To secure your fund...
+2026-02-05 12:03:57,788 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "\"CRITICAL ALERT: Your account security has been COMPROMISED! To prev...
+2026-02-05 21:52:13,124 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 21:52:13,144 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 21:52:13,144 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 21:52:13,144 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 21:52:13,145 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 21:52:13,145 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 21:52:13,265 - honeypot - INFO - info:87 - Starting API server on 0.0.0.0:8000
+2026-02-05 21:52:13,265 - honeypot - INFO - info:87 - API Key configured: True
+2026-02-05 21:52:14,237 - honeypot - INFO - info:87 - Initialized Ollama client (local)
+2026-02-05 21:52:14,250 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 21:52:14,250 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 21:52:14,250 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 21:52:14,252 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 21:52:14,252 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 21:52:14,422 - honeypot - INFO - info:87 - Configuration validated successfully
+2026-02-05 21:52:14,424 - honeypot - INFO - info:87 - LLM Provider: ollama
+2026-02-05 21:52:14,424 - honeypot - INFO - info:87 - Confidence Threshold: 0.3
+2026-02-05 21:52:14,424 - honeypot - INFO - info:87 - Max Messages: 15
+2026-02-05 21:52:14,425 - honeypot - INFO - info:87 - Honeypot system initialized successfully
+2026-02-05 21:53:21,182 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "URGENT: Your SBI account has been compromised. Your account will be b...
+2026-02-05 21:53:22,994 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be locked in minutes! Send the OTP from your regist...
+2026-02-05 21:53:24,855 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be locked within minutes! Please send the OTP from ...
+2026-02-05 21:53:26,579 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be locked in minutes! Reply with the OTP and confir...
+2026-02-05 21:53:28,739 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Urgent: Your SBI account will be locked in 2 minutes unless you reply...
+2026-02-05 21:53:30,699 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your SBI account will be locked in 1 minute! Send the OTP from your p...
+2026-02-05 21:53:32,520 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your SBI account will be locked in seconds! Send the OTP from your ph...
+2026-02-05 21:53:34,058 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your SBI account will be locked within seconds! Reply with the OTP fr...
+2026-02-05 21:53:35,699 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your SBI account will be blocked within seconds! Send the OTP from yo...
+2026-02-05 21:53:37,654 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your SBI account will be locked within minutes! Send the OTP from you...
+2026-02-05 21:55:38,882 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "URGENT: Your SBI account has been compromised. Your account will be b...
+2026-02-05 21:55:40,524 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be locked in minutes! Send the OTP from your regist...
+2026-02-05 21:55:42,788 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be locked in just a few minutes! Send the OTP from ...
+2026-02-05 21:55:46,024 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be blocked in under 5 minutes! Send the OTP and you...
+2026-02-05 21:55:48,203 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be locked in 2 minutes! Send the OTP from your phon...
+2026-02-05 21:55:50,146 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be locked in under 1 minute! Send the OTP from your...
+2026-02-05 21:55:51,955 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be locked in seconds! Send the OTP from your phone ...
+2026-02-05 21:55:53,970 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account will be permanently blocked in seconds! Send the OTP and...
+2026-02-05 21:55:56,709 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account 1234***678***** is about to be blocked; send the OTP an...
+2026-02-05 21:55:59,131 - honeypot - INFO - info:87 - API: Fast validation mode - message: {"sender": "scammer", "text": "Your account 1234***678***** will be blocked within minutes! Send th...

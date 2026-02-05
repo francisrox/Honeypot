@@ -1,0 +1,186 @@
+{
+  "report_metadata": {
+    "report_id": "0cbd1a772942",
+    "generated_at": "2026-01-31T10:15:34.268896Z",
+    "honeypot_version": "1.0.0",
+    "jurisdiction": "IN"
+  },
+  "scam_classification": {
+    "is_scam": true,
+    "confidence": 0.53,
+    "scam_type": "prize_lottery",
+    "reasoning": "Keywords: prize_keywords, high_keyword_density | LLM: The message asks for a registration fee without providing any details about the legitimate work from home opportunity. Legitimate businesses would not ask for payment before providing information on the opportunity.",
+    "detection_layers": {
+      "keyword": 0.7,
+      "pattern": 0.0,
+      "llm": 0.8
+    }
+  },
+  "conversation_summary": {
+    "total_messages": 18,
+    "duration_minutes": 6.05,
+    "conversation_phases": [
+      "Initial contact",
+      "Trust building",
+      "Intelligence extraction"
+    ],
+    "persona_used": "Rajesh Kumar"
+  },
+  "extracted_intelligence": {
+    "total_entities": 6,
+    "high_value_entities": 6,
+    "entities_by_type": {
+      "upi_id": 3,
+      "bank_account": 2,
+      "phone_number": 1
+    },
+    "all_entities": [
+      {
+        "type": "upi_id",
+        "value": "Congratulations",
+        "normalized_value": "congratulations",
+        "confidence": "medium",
+        "context": "Congratulations! You have been selected for a"
+      },
+      {
+        "type": "upi_id",
+        "value": "Registration",
+        "normalized_value": "registration",
+        "confidence": "medium",
+        "context": "nity. Earn ₹25,000 per month. Registration fee: ₹2,000. Interested?"
+      },
+      {
+        "type": "bank_account",
+        "value": "9876543210",
+        "normalized_value": "9876543210",
+        "confidence": "medium",
+        "context": " the payment to this account: 9876543210. Bank: HDMI Bank. Name: Rajes"
+      },
+      {
+        "type": "bank_account",
+        "value": "account: 9876543210",
+        "normalized_value": "account:9876543210",
+        "confidence": "medium",
+        "context": "Send the payment to this account: 9876543210. Bank: HDMI Bank. Name: Rajes"
+      },
+      {
+        "type": "phone_number",
+        "value": "9876543210",
+        "normalized_value": "9876543210",
+        "confidence": "medium",
+        "context": " the payment to this account: 9876543210. Bank: HDMI Bank. Name: Rajes"
+      },
+      {
+        "type": "upi_id",
+        "value": "materials",
+        "normalized_value": "materials",
+        "confidence": "medium",
+        "context": "we will send you the training materials and your first assignment."
+      }
+    ]
+  },
+  "conversation_transcript": [
+    {
+      "timestamp": "2026-01-31T10:13:15.200620Z",
+      "role": "scammer",
+      "message": "Congratulations! You have been selected for a work from home opportunity. Earn ₹25,000 per month. Registration fee: ₹2,000. Interested?"
+    },
+    {
+      "timestamp": "2026-01-31T10:13:15.200620Z",
+      "role": "victim",
+      "message": "That sounds interesting. How does this work?"
+    },
+    {
+      "timestamp": "2026-01-31T10:13:20.239931Z",
+      "role": "scammer",
+      "message": "Yes! This is a genuine opportunity with our company. You just need to pay a small training fee of ₹2,000."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:29.194615Z",
+      "role": "scammer",
+      "message": "Yes! This is a genuine opportunity with our company. You just need to pay a small training fee of ₹2,000."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:29.194615Z",
+      "role": "victim",
+      "message": "Okay, what do I need to do?"
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.201853Z",
+      "role": "scammer",
+      "message": "Send the payment to this account: 9876543210. Bank: HDMI Bank. Name: Rajesh Kumar."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.215894Z",
+      "role": "scammer",
+      "message": "After payment, we will send you the training materials and your first assignment."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.226881Z",
+      "role": "scammer",
+      "message": "Let me know if you want to proceed."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.235440Z",
+      "role": "scammer",
+      "message": "Let me know if you want to proceed."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.245118Z",
+      "role": "scammer",
+      "message": "Let me know if you want to proceed."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.249604Z",
+      "role": "scammer",
+      "message": "So are you interested or not?"
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.252552Z",
+      "role": "scammer",
+      "message": "So are you interested or not?"
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.254443Z",
+      "role": "scammer",
+      "message": "So are you interested or not?"
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.256431Z",
+      "role": "scammer",
+      "message": "Please send the payment soon."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.258700Z",
+      "role": "scammer",
+      "message": "Let me know if you want to proceed."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.262713Z",
+      "role": "scammer",
+      "message": "So are you interested or not?"
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.264611Z",
+      "role": "scammer",
+      "message": "Please send the payment soon."
+    },
+    {
+      "timestamp": "2026-01-31T10:15:34.264611Z",
+      "role": "scammer",
+      "message": "Let me know if you want to proceed."
+    }
+  ],
+  "strategic_analysis": {
+    "final_phase": "build_trust",
+    "stop_reason": "max_messages_reached",
+    "entities_extracted": 6,
+    "suspicion_indicators_detected": 0,
+    "scammer_behavior": {
+      "repetitive_messages": false,
+      "showed_suspicion": false,
+      "engagement_level": "medium"
+    }
+  },
+  "legal_disclaimer": "\nLEGAL DISCLAIMER:\n\nThis report was generated by an automated honeypot system for cybersecurity research and scam detection purposes.\n\nIMPORTANT NOTICES:\n1. Data Verification: All extracted entities should be independently verified before use. Some data may be fake, temporary, or test accounts used by scammers.\n\n2. Legal Use: This report is intended for:\n   - Cybersecurity research\n   - Law enforcement coordination (where applicable)\n   - Scam pattern analysis\n   - Educational purposes\n\n3. Privacy Considerations: This system engaged in cyber deception. Ensure compliance with local laws regarding:\n   - Honeypot operations\n   - Data collection and retention\n   - Evidence handling\n\n4. No Warranty: The information is provided \"as is\" without warranty. The system may produce false positives or miss scam indicators.\n\n5. Jurisdiction: This report was generated under the jurisdiction of IN. Consult legal counsel before using this data for law enforcement or legal proceedings.\n\n6. Data Retention: Per configuration, conversation data will be retained for 90 days.\n\nFor questions or to report issues, contact the system administrator.\n"
+}
